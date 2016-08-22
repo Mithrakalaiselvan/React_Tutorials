@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app.js';
+import App from './app5.js';
 
-ReactDOM.render(<App />, document.getElementById('main'));
-setTimeout(() => {
-   ReactDOM.unmountComponentAtNode(document.getElementById('main'));}, 10000)
+ReactDOM.render(<App/>, document.getElementById('main'));

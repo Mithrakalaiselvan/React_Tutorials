@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class App4 extends React.Component {
+class App extends React.Component {
 
    constructor(props) {
       super(props);
@@ -35,4 +35,4 @@ class App4 extends React.Component {
    }
 }
 
-export default App4;
+export default App;
